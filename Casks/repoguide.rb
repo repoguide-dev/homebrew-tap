@@ -4,22 +4,22 @@ cask "repoguide" do
 
   on_macos do
     on_intel do
-      sha256 "5baaeb495cd434f62090bdc373bab8de48df7b672aabdaa41b65add4757fdd80"
+      sha256 "0b94123a5894a74511bd60917ada834af3b70cf2f3e8f2393f6913f01ee86e59"
       url "https://github.com/repoguide-dev/repoguide-releases/releases/download/v#{version}/repoguide_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "c511de8a65caec4e81857b183fe3c908dbde9bb6e10d67f5e18c0d283076d5dc"
+      sha256 "85835db521a321857547fced84ae0ceee7b716f37a4c5c3acbc06d99715be64d"
       url "https://github.com/repoguide-dev/repoguide-releases/releases/download/v#{version}/repoguide_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "3ac4b49960b90617cfa2faf2e11ed316887ad1124721c0013f7dc1eb47d28c67"
+      sha256 "bcec5c33afaab9696e7c6ad93c796c026b85a5a7601c954a34bb6f89b7c9b39c"
       url "https://github.com/repoguide-dev/repoguide-releases/releases/download/v#{version}/repoguide_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "55f232098dcfb1b5a094520c89f6263e3b87f1da2a30c922781c03d3b7582178"
+      sha256 "50345d067d337493b72016a425f201559d81bc0d3317d6a557e02a901af055bf"
       url "https://github.com/repoguide-dev/repoguide-releases/releases/download/v#{version}/repoguide_#{version}_linux_arm64.tar.gz"
     end
   end
